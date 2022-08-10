@@ -6,7 +6,10 @@
     string[] arraytwo = new string[array.Length];
     for (int i = 0; i < arraytwo.Length; i++)
     {
-        
+        if (array[i].Length <= 3)
+        {
+            
+        }
     } 
 }
 FindStr();
