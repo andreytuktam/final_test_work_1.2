@@ -8,7 +8,8 @@
     {
         if (array[i].Length <= 3)
         {
-            
+            arraytwo[i] = array[i];
+            Console.Write($"{arraytwo[i]} ");
         }
     } 
 }
